@@ -1,0 +1,171 @@
+    .nav {
+        position: relative;
+    }
+    
+    .nav a {
+        color: #FFFFFF;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 14px 10px;
+        text-decoration: none;
+        position: relative;
+        top: 20px;
+    }
+    
+    .nav li {
+        display: inline;
+    }
+    
+    #big {
+        font-size: 35px;
+        font-weight: bolder;
+        position: relative;
+        top: 30px;
+    }
+    
+    .nav {
+        background-color: #181134;
+        height: 120px;
+    }
+    
+    .jumbotron {
+        background-color: #85A487;
+        height: 600px;
+    }
+    
+    .jumbotron h1 {
+        text-align: center;
+        font-size: 70px;
+        font-weight: bolder;
+        color: #FFFFFF;
+        position: relative;
+        top: 70px;
+    }
+    
+    .jumbotron p {
+        text-align: center;
+        font-size: 25px;
+        font-weight: bolder;
+        color: #FFFFFF;
+        position: relative;
+        top: 150px;
+    }
+    
+    .jumbotron img {
+        position: relative;
+        top: 20px;
+        left: 470px;
+    }
+    
+    .PORTFOLIO h2 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: bolder;
+        padding: 20px;
+        color: #3E5271;
+    }
+    
+    .PORTFOLIO {
+        background-color: #FFFFFF;
+        height: 450px;
+    }
+    
+    .ABOUT {
+        background-color: #85A487;
+        height: 450px;
+    }
+    
+    .ABOUT h2 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: bolder;
+        color: #FFFFFF;
+        position: relative;
+        top: 50px;
+    }
+    
+    .ABOUT p {
+        font-size: 20px;
+        font-weight: bold;
+        color: #FFFFFF;
+        position: relative;
+        top: 100px;
+        left: 90px;
+        width: 400px;
+    }
+    
+    .ABOUT a {
+        position: relative;
+        top: 100px;
+        left: 510px;
+    }
+    
+    .CONTACTME {
+        background-color: #FFFFFF;
+        height: 500px;
+    }
+    
+    .CONTACTME h2 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: bolder;
+        padding: 20px;
+        color: #3E5271;
+    }
+    
+    .CONTACTME div {
+        font-size: 20px;
+        width: 600px;
+        height: 80px;
+    }
+    
+    .CONTACTME a {
+        position: relative;
+        top: 20px;
+    }
+    
+    .BlueArea {
+        background-color: #03194A;
+        height: 250px;
+    }
+    
+    .BlueArea h3 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bolder;
+        color: #FFFFFF;
+        position: relative;
+        top: 50px;
+    }
+    
+    .BlueArea p {
+        text-align: center;
+        font-size: 14px;
+        color: #FFFFFF;
+        position: relative;
+        top: 50px;
+    }
+    
+    #p2 {
+        position: relative;
+        top: 40px;
+    }
+    
+    #p21 {
+        position: relative;
+        top: 40px;
+    }
+    
+    .Footer {
+        background-color: #181134;
+        height: 80px;
+    }
+    
+    .Footer div {
+        text-align: center;
+        font-size: 20px;
+        font-weight: bolder;
+        color: #FFFFFF;
+        position: relative;
+        top: 5px;
+    }
