@@ -32,4 +32,9 @@ p:nth-of-type(2) {
     color: #770077;
     font-size: 25px;
     font-weight: bold;
+    text-decoration: none;
+}
+
+li a {
+    text-decoration: none;
 }

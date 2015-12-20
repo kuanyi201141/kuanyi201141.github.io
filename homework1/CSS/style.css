@@ -22,3 +22,7 @@ li {
     font-weight: bold;
     font-family: monospace;
 }
+
+li a {
+    text-decoration: none;
+}

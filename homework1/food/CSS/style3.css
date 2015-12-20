@@ -21,10 +21,16 @@ li {
     font-size: 25px;
     font-weight: bold;
     font-family: monospace;
+    text-decoration: none;
 }
 
 #back2 {
     color: #770077;
     font-size: 25px;
     font-weight: bold;
+    text-decoration: none;
+}
+
+li a {
+    text-decoration: none;
 }
