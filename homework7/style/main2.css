@@ -42,13 +42,21 @@
         top: 70px;
     }
     
+    .jumbotron .fa-star {
+        color: #FFFFFF;
+        font-size: 35px;
+        position: relative;
+        top: 100px;
+        left: 550px;
+    }
+    
     .jumbotron p {
         text-align: center;
         font-size: 25px;
         font-weight: bolder;
         color: #FFFFFF;
         position: relative;
-        top: 150px;
+        top: 120px;
     }
     
     .jumbotron img {
@@ -61,18 +69,26 @@
         text-align: center;
         font-size: 40px;
         font-weight: bolder;
-        padding: 20px;
+        padding: 20px 0 0 0;
         color: #3E5271;
+    }
+    
+    .PORTFOLIO .fa-star {
+        color: #3E5271;
+        font-size: 35px;
+        padding: 5px;
+        position: relative;
+        left: 550px;
     }
     
     .PORTFOLIO {
         background-color: #FFFFFF;
-        height: 450px;
+        height: 480px;
     }
     
     .ABOUT {
         background-color: #85A487;
-        height: 450px;
+        height: 480px;
     }
     
     .ABOUT h2 {
@@ -84,12 +100,21 @@
         top: 50px;
     }
     
+    .ABOUT .fa-star {
+        color: #FFFFFF;
+        font-size: 35px;
+        padding: 5px;
+        position: relative;
+        top: 60px;
+        left: 550px;
+    }
+    
     .ABOUT p {
         font-size: 20px;
         font-weight: bold;
         color: #FFFFFF;
         position: relative;
-        top: 100px;
+        top: 80px;
         left: 90px;
         width: 400px;
     }
@@ -102,15 +127,23 @@
     
     .CONTACTME {
         background-color: #FFFFFF;
-        height: 500px;
+        height: 540px;
     }
     
     .CONTACTME h2 {
         text-align: center;
         font-size: 40px;
         font-weight: bolder;
-        padding: 20px;
+        padding: 20px 0 0 0;
         color: #3E5271;
+    }
+    
+    .CONTACTME .fa-star {
+        color: #3E5271;
+        font-size: 35px;
+        padding: 5px;
+        position: relative;
+        left: 270px;
     }
     
     .CONTACTME div {
@@ -154,6 +187,38 @@
     #p21 {
         position: relative;
         top: 40px;
+    }
+    
+    .BlueArea .col-12 {
+        font-size: 40px;
+        text-align: center;
+        position: relative;
+        top: 50px;
+    }
+    
+    .fa-facebook-official {
+        color: #FFFFFF;
+        padding: 10px;
+    }
+    
+    .fa-google-plus-square {
+        color: #FFFFFF;
+        padding: 10px;
+    }
+    
+    .fa-twitter-square {
+        color: #FFFFFF;
+        padding: 10px;
+    }
+    
+    .fa-linkedin-square {
+        color: #FFFFFF;
+        padding: 10px;
+    }
+    
+    .fa-github {
+        color: #FFFFFF;
+        padding: 10px;
     }
     
     .Footer {

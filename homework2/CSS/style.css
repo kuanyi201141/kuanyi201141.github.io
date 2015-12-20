@@ -1,24 +1,91 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 35px;
+}
+
 body {
+    height: 1200px;
     color: #AA0000;
     font-size: 20px;
-    background-color: rgb(129, 199, 212);
     font-family: sans-serif;
 }
 
+.school {
+    height: 330px;
+    padding: 20px 20px 0 20px;
+    background-color: #F2F589;
+}
+
+.work {
+    height: 520px;
+    padding: 20px 20px 0 20px;
+    background-color: #E5BF89;
+}
+
+.contain1 {
+    height: 100px;
+    background-color: #0A1554;
+    font-weight: bolder;
+}
+
+#deta {
+    padding: 20px;
+    font-size: 35px;
+    background-color: #C00202;
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+
 h1 {
+    text-align: center;
+    padding: 20px;
     color: #FFF8DC;
     font-size: 40px;
     font-weight: bolder;
 }
 
-p {
-    color: #770077;
-    font-size: 18px;
+#style1 {
+    font-weight: bolder;
+    background-color: #E7E800;
+    padding: 10px;
+    font-size: 33px;
+}
+
+#style2 {
+    font-weight: bolder;
+    background-color: #FF7900;
+    padding: 10px;
+    font-size: 33px;
+}
+
+.name {
+    width: 800px;
+    font-size: 25px;
+    font-weight: bolder;
+    list-style: square;
+    position: relative;
+    left: 40px;
+}
+
+.name2 {
+    width: 800px;
+    font-size: 20px;
+    font-weight: bold;
+    list-style: disc;
+    position: relative;
+    left: 40px;
 }
 
 li {
     color: #191970;
-    font-size: 25px;
+    padding: 10px;
+    font-size: 20px;
     font-weight: bold;
     font-family: monospace;
+}
+
+.item {
+    background-color: #90BEFF;
 }
