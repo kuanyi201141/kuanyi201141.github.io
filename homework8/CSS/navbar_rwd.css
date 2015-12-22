@@ -1,0 +1,327 @@
+/*-----導覽列-----*/
+
+* {
+    font-size: 35px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.topnav {
+    height: 80px;
+    text-align: center;
+    background-color: #000000;
+    position: relative;
+}
+
+.topnav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.topnav li {
+    margin: 5px 10px;
+    padding: 15px 0 0 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.topnav a {
+    padding: 10px;
+    text-decoration: none;
+    color: #999;
+    line-height: 100%;
+}
+
+.topnav a:hover {
+    color: #FFF;
+}
+
+.topnav .current a {
+    background-color: #8A99EF;
+    color: #FFF;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    .topnav {
+        position: relative;
+        min-height: 60px;
+    }
+    .topnav ul {
+        width: 100%;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 5px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    }
+    .topnav li {
+        display: none;
+        margin: 0;
+    }
+    .topnav .current {
+        display: block;
+    }
+    .topnav a {
+        display: block;
+        padding: 5px 5px 5px 20px;
+        text-align: left;
+    }
+    .topnav .current a {
+        color: #555;
+    }
+    .topnav ul:hover {
+        background: #07295E;
+    }
+    .topnav ul:hover li {
+        display: block;
+        margin: 3px;
+    }
+}
+
+
+/*-----導覽列END-----*/
+
+
+/*-----Banner-----*/
+
+.jumbotron {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    height: 300px;
+    background-color: #DCDCDC;
+}
+
+.jumbotron h1 {
+    font-size: 50px;
+    padding: 30px 20px 5px 20px;
+}
+
+.jumbotron p {
+    font-size: 20px;
+    padding: 0px 20px;
+}
+
+.jumbotron a {
+    width: 50px;
+    height: 20px;
+    padding: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #FFF;
+    border-radius: 5px;
+    background-color: #077DD2;
+    position: relative;
+    top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .jumbotron {
+        margin: 30px 15px;
+        padding: 15px;
+        min-height: 450px;
+    }
+}
+
+
+/*-----Banner End-----*/
+
+
+/*-----內容-----*/
+
+.latest-features {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 0 50px 0;
+}
+
+.latest-features img {
+    display: block;
+    margin: auto;
+}
+
+.latest-features h3 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.latest-features p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.latest-features .buynow {
+    width: 60px;
+    height: 30px;
+    font-size: 10px;
+    margin: 5px;
+    padding: 7px 0 0 0;
+    text-decoration: none;
+    text-align: center;
+    color: #FFF;
+    border-radius: 5px;
+    background-color: #077DD2;
+    float: left;
+    position: relative;
+    top: 5px;
+    left: 15px;
+}
+
+.latest-features .moreinfo {
+    width: 60px;
+    height: 30px;
+    font-size: 10px;
+    margin: 5px;
+    padding: 7px 0 0 0;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    border-radius: 5px;
+    border: 1px solid #CDCCCC;
+    background-color: #FFF;
+    float: left;
+    position: relative;
+    top: 5px;
+    left: 15px;
+}
+
+.latest-features #acenter {
+    max-width: 200px;
+    display: block;
+    margin: auto;
+}
+
+[class^="col-"] {
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid #AFABAB;
+    float: left;
+}
+
+@media screen and (min-width: 800px) {
+    .col-md-1 {
+        width: 8.33%;
+    }
+    .col-md-2 {
+        width: 16.66%;
+    }
+    .col-md-3 {
+        width: 25%;
+    }
+    .col-md-4 {
+        width: 33.33%;
+    }
+    .col-md-5 {
+        width: 41.66%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-7 {
+        width: 58.33%;
+    }
+    .col-md-8 {
+        width: 66.66%;
+    }
+    .col-md-9 {
+        width: 75%;
+    }
+    .col-md-10 {
+        width: 83.33%;
+    }
+    .col-md-11 {
+        width: 91.66%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 799px) {
+    .col-sm-1 {
+        width: 8.33%;
+    }
+    .col-sm-2 {
+        width: 16.66%;
+    }
+    .col-sm-3 {
+        width: 25%;
+    }
+    .col-sm-4 {
+        width: 33.33%;
+    }
+    .col-sm-5 {
+        width: 41.66%;
+    }
+    .col-sm-6 {
+        width: 50%;
+    }
+    .col-sm-7 {
+        width: 58.33%;
+    }
+    .col-sm-8 {
+        width: 66.66%;
+    }
+    .col-sm-9 {
+        width: 75%;
+    }
+    .col-sm-10 {
+        width: 83.33%;
+    }
+    .col-sm-11 {
+        width: 91.66%;
+    }
+    .col-sm-12 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .col-xs-1 {
+        width: 8.33%;
+    }
+    .col-xs-2 {
+        width: 16.66%;
+    }
+    .col-xs-3 {
+        width: 25%;
+    }
+    .col-xs-4 {
+        width: 33.33%;
+    }
+    .col-xs-5 {
+        width: 41.66%;
+    }
+    .col-xs-6 {
+        width: 50%;
+    }
+    .col-xs-7 {
+        width: 58.33%;
+    }
+    .col-xs-8 {
+        width: 66.66%;
+    }
+    .col-xs-9 {
+        width: 75%;
+    }
+    .col-xs-10 {
+        width: 83.33%;
+    }
+    .col-xs-11 {
+        width: 91.66%;
+    }
+    .col-xs-12 {
+        width: 100%;
+    }
+}
+
+
+/*-----內容End-----*/
