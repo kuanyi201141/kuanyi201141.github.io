@@ -49,13 +49,12 @@ span {
 }
 
 .box {
-    max-width: 1200px;
     margin: auto;
     display: block;
 }
 
 [class^="col-xs-"] {
-    max-width: 360px;
+    width: 360px;
     height: 500px;
     margin: 15px;
     border: 3px solid #70AFFD;
