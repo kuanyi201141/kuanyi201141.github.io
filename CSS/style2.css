@@ -22,7 +22,7 @@ span {
     background-image: url(../images/IMAG0492.jpg);
     border: 5px solid #B90000;
     border-radius: 5px;
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 40px auto;
     display: block;
     height: 500px;
@@ -49,12 +49,13 @@ span {
 }
 
 .box {
+    max-width: 1200px;
     margin: auto;
     display: block;
 }
 
 [class^="col-xs-"] {
-    width: 360px;
+    max-width: 360px;
     height: 500px;
     margin: 15px;
     border: 3px solid #70AFFD;
@@ -179,6 +180,8 @@ span {
 .Footer {
     background-color: #DBDBDC;
     height: 60px;
+    margin: auto;
+    display: block;
 }
 
 .Footer div {
