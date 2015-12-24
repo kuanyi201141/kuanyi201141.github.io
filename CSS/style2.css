@@ -110,7 +110,7 @@ span {
     border: 2px solid #02235B;
 }
 
-.fa-pencil-square-o {
+.box .fa-pencil-square-o {
     text-align: center;
     padding: 10px 0 0 0;
     font-size: 170px;
@@ -119,31 +119,31 @@ span {
     top: 10px;
 }
 
-.fa-facebook-official {
+.box .fa-facebook-official {
     padding: 10px;
     color: #2300B4;
     font-size: 40px;
 }
 
-.fa-twitter {
+.box .fa-twitter {
     padding: 10px;
     color: #2300B4;
     font-size: 40px;
 }
 
-.fa-skype {
+.box .fa-skype {
     padding: 10px;
     color: #2300B4;
     font-size: 40px;
 }
 
-.fa-chrome {
+.box .fa-chrome {
     padding: 10px;
     color: #2300B4;
     font-size: 40px;
 }
 
-.fa-youtube-square {
+.box .fa-youtube-square {
     padding: 10px;
     color: #2300B4;
     font-size: 40px;
@@ -167,7 +167,7 @@ span {
     top: 30px;
 }
 
-.fa-rss {
+.box .fa-rss {
     text-align: center;
     padding: 10px 0 0 0;
     font-size: 170px;
